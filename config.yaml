@@ -1,0 +1,19 @@
+api_keys:
+  - secret123
+  - anotherkey456
+
+routes:
+  - name: openai
+    match_prefix: /v1/openai
+    upstream: https://api.openai.com
+    auth_required: true
+    rate_limit:
+      rps: 5
+      burst: 10
+  - name: google
+    match_prefix: /v1/google
+    upstream: https://api.google.com
+    auth_required: false
+    rate_limit:
+      rps: 10
+      burst: 20
