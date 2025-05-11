@@ -113,9 +113,4 @@ Pull requests, ideas, and issues welcome!
 This is a WIP and we’d love help refining the core.  
 Focus: Simplicity, performance, extensibility.
 
----
-
-## 📄 License
-
-MIT © YourNameHere
 
